@@ -1,0 +1,1 @@
+If you read this message from the text file, this means you have written it through the console succesfully.
