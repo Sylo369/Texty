@@ -1,8 +1,78 @@
-﻿StreamWriter writer = new StreamWriter(@"../../../test.txt");
-StreamReader reader = new StreamReader(@"../../../read.txt");
-writer.Write("If you are reading this message from the text file, this means you have written it through the console succesfully.");
-Console.WriteLine(reader.ReadLine()); 
+﻿IntroMenu();
+static void IntroMenu()
+{
+    Console.WriteLine("Welcome to Texty. ver 0.1");
+    Console.WriteLine("Press any key to continue: ");
+    Console.ReadKey();
+    Console.Clear();
+    MainMenu();
+}
+static void MainMenu()
+{
+    Console.WriteLine("What would you like to do?");
+    Console.WriteLine("(Create) a new text file");
+    Console.WriteLine("(Read) an existing file");
+    Console.WriteLine("(Exit) the app");
+    Console.WriteLine();
+    Console.WriteLine("Tip: Write the wanted action that is in brackets.");
+    string command = Console.ReadLine().ToLower();
+    Console.Clear();
 
+    switch (command)
+    {
+        case "create":
+            Create();
+            break;
+        case "read":
+            Read();
+            break;
+        case "exit":
+            Exit();
+            break;
+        default:
+            Unknown();
+            break;
+    }
+}
+static void Create()
+{
+    Console.WriteLine("What is the name of the file: ");
+    Console.WriteLine("Tip: Try simple names, because there is no added filter for valid names yet.");
+    string textFileName = Console.ReadLine();
+    using (StreamWriter writer = new StreamWriter(@$"../../../{textFileName}.txt"))
+    {
+        Console.WriteLine("What is the message: ");
+        string textMessage = Console.ReadLine();
+        writer.WriteLine(textMessage);
+    }
+    Console.WriteLine("Your text file with the message has been created.");
+    Console.WriteLine("Press any key to return to the main menu:");
+    Console.ReadKey();
+    Console.Clear();
+    MainMenu();
+}
+static void Read()
+{
+    Console.WriteLine("Read command still not implemented.");
+    Console.WriteLine("Press any key to return to the main menu: ");
+    Console.ReadKey();
+    Console.Clear();
+    MainMenu();
+}
+static void Exit()
+{
+    Console.WriteLine("Thank you for using Texty.");
+    Console.WriteLine("Have a beautiful and peaceful day!");
+    Console.ReadKey();
+    Console.Clear();
+    return;
+}
 
-
-writer.Close();
+static void Unknown()
+{
+    Console.WriteLine("Unknown command. Try again.");
+    Console.WriteLine("Press any key to continue: ");
+    Console.ReadKey();
+    Console.Clear();
+    MainMenu();
+}

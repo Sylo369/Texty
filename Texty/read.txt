@@ -1,1 +1,0 @@
-If you see this message, you succesfully read this message from a text file! :)
