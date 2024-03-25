@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Storage\\Repos\\Texty\\Texty\\Texty.csproj",
+      "projectUniqueName": "D:\\Storage\\Repos\\Texty 0.1\\Texty\\Texty.csproj",
       "projectName": "Texty",
-      "projectPath": "D:\\Storage\\Repos\\Texty\\Texty\\Texty.csproj",
+      "projectPath": "D:\\Storage\\Repos\\Texty 0.1\\Texty\\Texty.csproj",
       "packagesPath": "C:\\Users\\hppavilion\\.nuget\\packages\\",
-      "outputPath": "D:\\Storage\\Repos\\Texty\\Texty\\obj\\",
+      "outputPath": "D:\\Storage\\Repos\\Texty 0.1\\Texty\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\Programs\\Visual Studio 2022\\Shared components\\NuGetPackages"

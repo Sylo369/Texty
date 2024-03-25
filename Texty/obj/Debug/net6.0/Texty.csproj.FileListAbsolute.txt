@@ -28,3 +28,18 @@ C:\Users\hppavilion\source\repos\Texty\Texty\obj\Debug\net6.0\refint\Texty.dll
 C:\Users\hppavilion\source\repos\Texty\Texty\obj\Debug\net6.0\Texty.pdb
 C:\Users\hppavilion\source\repos\Texty\Texty\obj\Debug\net6.0\Texty.genruntimeconfig.cache
 C:\Users\hppavilion\source\repos\Texty\Texty\obj\Debug\net6.0\ref\Texty.dll
+D:\Storage\Repos\Texty 0.1\Texty\bin\Debug\net6.0\Texty.exe
+D:\Storage\Repos\Texty 0.1\Texty\bin\Debug\net6.0\Texty.deps.json
+D:\Storage\Repos\Texty 0.1\Texty\bin\Debug\net6.0\Texty.runtimeconfig.json
+D:\Storage\Repos\Texty 0.1\Texty\bin\Debug\net6.0\Texty.dll
+D:\Storage\Repos\Texty 0.1\Texty\bin\Debug\net6.0\Texty.pdb
+D:\Storage\Repos\Texty 0.1\Texty\obj\Debug\net6.0\Texty.csproj.AssemblyReference.cache
+D:\Storage\Repos\Texty 0.1\Texty\obj\Debug\net6.0\Texty.GeneratedMSBuildEditorConfig.editorconfig
+D:\Storage\Repos\Texty 0.1\Texty\obj\Debug\net6.0\Texty.AssemblyInfoInputs.cache
+D:\Storage\Repos\Texty 0.1\Texty\obj\Debug\net6.0\Texty.AssemblyInfo.cs
+D:\Storage\Repos\Texty 0.1\Texty\obj\Debug\net6.0\Texty.csproj.CoreCompileInputs.cache
+D:\Storage\Repos\Texty 0.1\Texty\obj\Debug\net6.0\Texty.dll
+D:\Storage\Repos\Texty 0.1\Texty\obj\Debug\net6.0\refint\Texty.dll
+D:\Storage\Repos\Texty 0.1\Texty\obj\Debug\net6.0\Texty.pdb
+D:\Storage\Repos\Texty 0.1\Texty\obj\Debug\net6.0\Texty.genruntimeconfig.cache
+D:\Storage\Repos\Texty 0.1\Texty\obj\Debug\net6.0\ref\Texty.dll
